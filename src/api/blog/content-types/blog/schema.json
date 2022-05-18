@@ -31,9 +31,8 @@
     },
     "tag": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::tags.tags",
-      "inversedBy": "blogs"
+      "relation": "oneToOne",
+      "target": "api::tag.tag"
     }
   }
 }
